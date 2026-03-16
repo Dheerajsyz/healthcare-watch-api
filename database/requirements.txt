@@ -1,0 +1,6 @@
+SQLAlchemy
+alembic
+asyncpg
+psycopg2-binary
+python-dotenv
+passlib[bcrypt]
