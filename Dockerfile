@@ -10,6 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY api/ ./api/
+COPY database/ ./database/
 
 # Use the PORT env var (Cloud Run default is 8080)
 EXPOSE 8080
