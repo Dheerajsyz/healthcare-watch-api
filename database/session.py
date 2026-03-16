@@ -35,7 +35,7 @@ if not DATABASE_URL or not SYNC_DATABASE_URL:
 # Async engine (FastAPI)
 # ---------------------------------------------------------------------------
 async_engine = create_async_engine(
-    ASYNC_DATABASE_URL,
+    DATABASE_URL,
     pool_pre_ping=True,
     pool_size=10,
     max_overflow=20,
